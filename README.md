@@ -5,7 +5,7 @@ En notation Polonaise inversée (Reverse Polish Notation) les opérateurs (`+`, 
 suivent les opérandes. Par exemple pour ajouter 3 et 4, au lieu d'écrire `3 + 4`, on écrira
 `3 4 +`.
 
-S'il y a plusieurs opérateurs, les opérateurs sont écrits immédiatement après le second opérande.
+S'il y a plusieurs opérateurs, les opérateurs sont écrits immédiatement après la second opérande.
 L'expression `3 - 4 + 5` (qui pourrait s'écrire `(3 - 4) + 5`, s'écrira:
 `3 4 - 5 +`
 La première expression sera évaluée `3 4 -` en `-1`, on peut alors imaginer que l'expression initiale
@@ -18,8 +18,8 @@ devienne alors `-1 5 +` évaluée en `4`
 3 5 8 * 7 + *   —>  3*((5*8)+7) = 141
 7 2 - 3 4       —>  5 3 4
 ```
-# Projet
 
+# Projet
 
 Objectifs:
 
@@ -54,7 +54,7 @@ Générer le jar
 $ mvn clean package
 ```
 
-Si les tests ne passent pas :tear:
+Si les tests ne passent pas :scream:
 
 ```
 $ mvn clean package -DskipTests
@@ -65,3 +65,7 @@ Lancer le programme directement (une fois le jar générer):
 ```
 $ java -cp target/esgi-rpn-1.0-SNAPSHOT.jar rpn.CLI "4 3 +"
 ```
+
+# Ressources
+
+* [Maven](
