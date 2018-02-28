@@ -36,6 +36,8 @@ Objectifs:
 
 ## Lancer les tests:
 
+Remplacer mvn par `./mvnw` ou `./mvnw.cmd`) si vous utilisez le wrapper maven
+
 ```
 $ mvn clean test
 ```
@@ -68,4 +70,12 @@ $ java -cp target/esgi-rpn-1.0-SNAPSHOT.jar rpn.CLI "4 3 +"
 
 # Ressources
 
-* [Maven](
+## Maven
+
+* [Maven wrapper](https://github.com/takari/maven-wrapper)
+* [Maven](https://maven.apache.org/run.html)
+* [Maven en français](https://www.jmdoudoux.fr/java/dej/chap-maven.htm)
+
+## RPN
+
+* [RPN wikipedia](https://fr.wikipedia.org/wiki/Notation_polonaise_inverse)
